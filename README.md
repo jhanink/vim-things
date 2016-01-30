@@ -18,3 +18,5 @@
 * `:buffers` show the open file buffers
 * `:b 1` open (switch to) the file at buffer 1
 * `:bw 2` removes buffer 2 from buffers
+* `:bn` next buffer
+* `:bp` previous buffer
