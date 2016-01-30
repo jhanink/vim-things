@@ -6,10 +6,12 @@
 ## `editing`
 * `u` undo previous 
 * `ctrl+r` redo the undo 
-* write a visual selection to a file `:w temp`
-* search/repl in a visual selection `:s/patt/subs/g`
 * `daw` delete a word
 * `caw` change a word (deletes and then goes into insert mode)
+* write a visual selection to a file `:w temp`
+* search/repl in a visual selection `:s/patt/subs/g`
+* `>>` indent line/selection
+* `gg=G` indent entire file
 
 ## `buffers`
 * `:e.` browse directory to edit a file
