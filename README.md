@@ -11,6 +11,7 @@
 * write a visual selection to a file `:w temp`
 * search/repl in a visual selection `:s/patt/subs/g`
 * `>>` indent line/selection
+* `=` format indentation line/selection
 * `gg=G` indent entire file
 
 ## `buffers`
