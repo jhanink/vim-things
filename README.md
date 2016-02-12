@@ -31,17 +31,20 @@
 * `vsp <filename>` open a file in vertical split pane
 * `sp` for horizontal splits
 * `:q` to close the split
-* `ctrl+w` then arrow keys to switch between split panes
+* `ctrl+w` then left/right arrow keys to move between panes
 * `ctrl+w+w` to move to next pane
    * shows hidden pane after a maximize
 * `ctrl+w` then `=` to normalize size of all panes
 * `ctrl+w` then `|` to maximize size of current pane
-* `ctrl+w` then `r` to swap the left and right panes
-* `ctrl+w` then `t` to move the pane to a tab view
+* `ctrl+w` then `r` to rotate the panes to the right
 * `ctrl+w` then `o` closes all but current pane
 * `ctrl+w` then (n)`<` make current pane smaller by (n) 
 * `ctrl+w` then (n)`>` make current pane larger by (n)
 
+## `Command-T`
+* `,t` list files
+* `,b` list buffers
+* `<C-v>` open file in vertical split
 
 ## `shell`
 * `!<command>` to run a command in the shell
