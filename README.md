@@ -33,8 +33,8 @@
 * `ctrl+w` then `r` to swap the left and right panes
 * `ctrl+w` then `t` to move the pane to a tab view
 * `ctrl+w` then `o` closes all but current pane
-* `ctrl+w` then `20<` make current pane smaller by 20
-* `ctrl+w` then `20>` make current pane larger by 20
+* `ctrl+w` then (n)`<` make current pane smaller by (n) 
+* `ctrl+w` then (n)`>` make current pane larger by (n)
 
 
 ## `shell`
