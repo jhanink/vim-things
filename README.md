@@ -20,7 +20,22 @@
 * `:bn` next buffer
 * `:bp` previous buffer
 * `:b 1` open (switch to) the file at buffer 1
-* `:bd` or `:bw` removes buffer 2 from buffers
+* `:bd` or `:bw` remove current or numbered buffer
+* `vsp | b<n>` open buffer <n> in vertical split pane
+* `vsp <filename>` open a file in vertical split pane
+* `sp` for horizontal splits
+* `:q` to close the split
+* `ctrl+w` then arrow keys to switch between split panes
+* `ctrl+w+w` to move to next pane
+   * shows hidden pane after a maximize
+* `ctrl+w` then `=` to normalize size of all panes
+* `ctrl+w` then `|` to maximize size of current pane
+* `ctrl+w` then `r` to swap the left and right panes
+* `ctrl+w` then `t` to move the pane to a tab view
+* `ctrl+w` then `o` closes all but current pane
+* `ctrl+w` then `20<` make current pane smaller by 20
+* `ctrl+w` then `20>` make current pane larger by 20
+
 
 ## `shell`
 * `!<command>` to run a command in the shell
