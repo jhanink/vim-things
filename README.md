@@ -1,7 +1,12 @@
 # Vim Things
 
 ## `selection`
-* `SHIFT+v` visual line select
+* `v` start visual select
+* `SHIFT+v` start visual line select
+
+## `moving`
+* `gg` top of file
+* `shift+G` bottom of file
 
 ## `editing`
 * `u` undo previous 
