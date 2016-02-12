@@ -13,6 +13,7 @@
 * `>>` indent line/selection
 * `=` format indentation line/selection
 * `gg=G` indent entire file
+* `:qa` close all buffers
 
 ## `buffers`
 * `:e.` browse directory to edit a file
