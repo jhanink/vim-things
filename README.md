@@ -53,6 +53,11 @@
 * `Bling/vim-airline` - cool info bar 
 * `easymotion/vim-easymotion` - fuzzy search, etc
 * `wincent/Command-T` - easily open files and buffers with `,t`
+   * after a `:PlugUpdate`
+   * go to `~/.vim/plugged/Command-T`
+   * run `rake make`
+   * `git status`, then checkout the changed files
+   * then run `:PlugUpdate` again to verify
 * `tomasr/molokai` - color theme
 * `pangloss/vim-javascript` - javascript syntax, indentation support, etc
 
