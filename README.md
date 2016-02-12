@@ -58,6 +58,7 @@
    * run `rake make`
    * `git status`, then checkout the changed files
    * then run `:PlugUpdate` again to verify
-* `tomasr/molokai` - color theme
+* `w0ng/vim-hybrid` - BEST color theme
+* `tomasr/molokai` - GOOD color theme
 * `pangloss/vim-javascript` - javascript syntax, indentation support, etc
 
