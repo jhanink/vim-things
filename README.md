@@ -59,6 +59,7 @@
 * `matze/vim-move` - keyboard shortcuts to move line/selection up/down
 * `powerline/powerline` - awesome in-editor info bar
   * download the font __Input Mono__
+    * [Input Mono font download](http://input.fontbureau.com/download/)
     * install the font using the native __Font Book__ application
     * set the terminal font to use __Input Mono__
     * in `~/.vimrc`
