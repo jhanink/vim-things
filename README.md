@@ -27,9 +27,9 @@
 * `:bp` previous buffer
 * `:b 1` open (switch to) the file at buffer 1
 * `:bd` or `:bw` remove current or numbered buffer
-* `vsp | b<n>` open buffer <n> in vertical split pane
-* `vsp <filename>` open a file in vertical split pane
-* `sp` for horizontal splits
+* `:vsp | b<n>` open buffer <n> in vertical split pane
+* `:vsp <filename>` open a file in vertical split pane
+* `:sp` for horizontal splits
 * `:q` to close the split
 * `ctrl+w` then left/right arrow keys to move between panes
 * `ctrl+w+w` to move to next pane
