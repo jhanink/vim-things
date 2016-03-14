@@ -58,6 +58,20 @@
    * to update, run `:PlugUpdate`
 * `matze/vim-move` - keyboard shortcuts to move line/selection up/down
 * `powerline/powerline` - awesome in-editor info bar
+  * download the font __Input Mono__
+    * install the font using the native __Font Book__ application
+    * set the terminal font to use __Input Mono__
+    * in `~/.vimrc`
+
+```shell
+set guifont=Input\ Mono
+let g:Powerline_symbols = 'fancy'
+let g:airline_powerline_fonts = 1 
+let g:airline#extensions#branch#enabled = 1 
+let g:airline_section_z                  = '%p%%  %l:%v'
+let g:hybrid_use_Xresources = 1 
+```
+
 * `Bling/vim-airline` - cool info bar 
 * `easymotion/vim-easymotion` - fuzzy search, etc
 * `wincent/Command-T` - easily open files and buffers with `,t`
