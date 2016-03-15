@@ -1,8 +1,15 @@
 # Vim Things
 
 ## `install`
-* `brew install vim --override-system-vim --HEAD`
-  * `cd /usr/bin && ln -s /usr/local/Cellar/vim/HEAD/bin/vim vim`
+* install brew
+  * `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+* install vim
+  * `brew install vim --override-system-vim --HEAD`
+  * `cd /usr/bin && sudo mv vim BAK_vim && sudo ln -s /usr/local/Cellar/vim/HEAD/bin/vim vim`
+  * if __Operation not permitted__
+    * reboot and press `cmd+r`
+    * select __Utilities > Terminal__ from the menu
+    * `csrutil disable && reboot`
 ## `selection`
 * `v` start visual select
 * `SHIFT+v` start visual line select
@@ -88,5 +95,3 @@ let g:airline_section_z = '%p%%  %l:%v'
 * `tomasr/molokai` - GOOD color theme
 * `pangloss/vim-javascript` - javascript syntax, indentation support, etc
 
-## `misc`
-* try [neovim](https://github.com/neovim/neovim)
