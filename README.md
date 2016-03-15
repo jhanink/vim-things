@@ -84,3 +84,5 @@ let g:airline_section_z = '%p%%  %l:%v'
 * `tomasr/molokai` - GOOD color theme
 * `pangloss/vim-javascript` - javascript syntax, indentation support, etc
 
+## `misc`
+* try [neovim](https://github.com/neovim/neovim)
