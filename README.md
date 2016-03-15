@@ -1,5 +1,8 @@
 # Vim Things
 
+## `install`
+* `brew install vim --override-system-vim --HEAD`
+  * `cd /usr/bin && ln -s /usr/local/Cellar/vim/HEAD/bin/vim vim`
 ## `selection`
 * `v` start visual select
 * `SHIFT+v` start visual line select
