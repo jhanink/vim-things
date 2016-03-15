@@ -63,6 +63,7 @@
     * install the font using the native __Font Book__ application
     * set the terminal font to use __Input Mono__
     * in `~/.vimrc`
+  * [other powerline fonts](https://github.com/powerline/fonts)
 
 ```shell
 set guifont=Input\ Mono
