@@ -95,3 +95,6 @@ let g:airline_section_z = '%p%%  %l:%v'
 * `tomasr/molokai` - GOOD color theme
 * `pangloss/vim-javascript` - javascript syntax, indentation support, etc
 
+## `etc`
+
+* https://github.com/mhinz/vim-galore
