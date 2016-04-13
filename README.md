@@ -98,3 +98,4 @@ let g:airline_section_z = '%p%%  %l:%v'
 ## `etc`
 
 * https://github.com/mhinz/vim-galore
+* https://blog.mozhu.info/vimmers-you-dont-need-nerdtree-18f627b561c3
