@@ -17,6 +17,9 @@
 ## `moving`
 * `gg` top of file
 * `shift+G` bottom of file
+* ```` returns to the previous line number before a jump
+* `ma` sets a `mark` position labeled `a`
+  * jump to label `a` with ```a`
 
 ## `editing`
 * `u` undo previous 
