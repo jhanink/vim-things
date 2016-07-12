@@ -22,8 +22,8 @@
   * jump to label `a` with \``a`
 
 ## `editing`
-* `u` undo previous 
-* `ctrl+r` redo the undo 
+* `u` undo previous
+* `ctrl+r` redo the undo
 * `daw` delete a word
 * `caw` change a word (deletes and then goes into insert mode)
 * write a visual selection to a file `:w temp`
@@ -51,8 +51,15 @@
 * `ctrl+w` then `|` to maximize size of current pane
 * `ctrl+w` then `r` to rotate the panes to the right
 * `ctrl+w` then `o` closes all but current pane
-* `ctrl+w` then (n)`<` make current pane smaller by (n) 
+* `ctrl+w` then (n)`<` make current pane smaller by (n)
 * `ctrl+w` then (n)`>` make current pane larger by (n)
+
+## `quick-fix`
+* `:copen` Open the quickfix window
+* `:ccl` Close it
+* `:cw` Open it if there are "errors", close it otherwise (some people prefer this)
+* `:cn` Go to the next error in the window
+* `:cnf` Go to the first error in the next file
 
 ## `Command-T`
 * `,t` list files
@@ -81,12 +88,12 @@
 ```shell
 set guifont=Input\ Mono
 let g:Powerline_symbols = 'fancy'
-let g:airline_powerline_fonts = 1 
-let g:airline#extensions#branch#enabled = 1 
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#branch#enabled = 1
 let g:airline_section_z = '%p%%  %l:%v'
 ```
 
-* `Bling/vim-airline` - cool info bar 
+* `Bling/vim-airline` - cool info bar
 * `easymotion/vim-easymotion` - fuzzy search, etc
 * `wincent/Command-T` - easily open files and buffers with `,t`
    * after a `:PlugUpdate`
