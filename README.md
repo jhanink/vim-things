@@ -21,6 +21,11 @@
 * `ma` sets a `mark` position labeled `a`
   * jump to label `a` with \``a`
 
+## `find (grep) in files`
+* `:noautocmd vimgrep "pattern" **/*.*`
+* `:e` to reload
+* `:cw` to list occurrences in quickfix
+
 ## `editing`
 * `u` undo previous
 * `ctrl+r` redo the undo
