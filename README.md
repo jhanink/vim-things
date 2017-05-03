@@ -37,6 +37,7 @@
 * `=` format indentation line/selection
 * `gg=G` indent entire file
 * `:qa` close all buffers
+* `:Vex` open directory tree in vertical split
 
 ## `buffers`
 * `:e.` browse directory to edit a file
