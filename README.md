@@ -13,6 +13,9 @@
 ## `selection`
 * `v` start visual select
 * `SHIFT+v` start visual line select
+* `brew install vim`
+  * `brew install --with-python3 vim`
+  * https://stackoverflow.com/questions/41452121/how-to-enable-python-on-vim-version-8-for-mac
 
 ## `moving`
 * `gg` top of file
