@@ -23,6 +23,7 @@
 
 ## `find (grep) in files`
 * `:noautocmd vimgrep "pattern" **/*.*`
+* `:Ggrep` with vim-fugitive
 * `:e` to reload
 * `:cw` to list occurrences in quickfix
 
